@@ -7,7 +7,7 @@ def sum(a):
     return s
 n=int(input())
 sqr=n**2
-if(sum(sqr)==n):
+if(sum(sqr)==n): 
     print("Neon Number")
 else:
     print("Not Neon Number")
