@@ -1,19 +1,14 @@
-def length(n):
-    l=0
-    while(n!=0):
-        l=l+1
-        n=n//10
-    return l
 n=int(input())
-s=0
 k=n
-len=length(n)
+str1=str(n)
+ln=len(str1)
+sum=0
 while(n!=0):
     r=n%10
-    s=s+int(r**len)
+    sum=sum+r**ln
     n=n//10
-    len=len-1
-if(s==k):
+    ln=ln-1
+if(k==sum):
     print("True")
 else:
     print("False")
