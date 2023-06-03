@@ -1,2 +1,3 @@
-n=input()
-print(str(n[::-1]))
+n=int(input())
+s=str(n)
+print(s[::-1])
